@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow: auto !important;
+}
+ul{
+    list-style: none;
+}
+input{
+    border: none;
+    background: none;
+    outline: none;
+}
+.u-l{
+    float: left;
+}
+.u-r{
+    float: right;
+}
+.u-clearfix:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+a,a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+    color:inherit;
+}
